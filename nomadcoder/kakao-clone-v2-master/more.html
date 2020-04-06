@@ -3,10 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/7dcad8a665.js"
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
-    ></script>
+    />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>More | Kakao Clone</title>
   </head>
   <body>
@@ -24,7 +28,7 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <hi class="header__title">More</hi>
+        <h1 class="header__title">More</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
@@ -34,7 +38,9 @@
           <i class="fas fa-qrcode"></i>
         </span>
         <span class="header__icon">
-          <i class="fas fa-cog"></i>
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+          </a>
         </span>
       </div>
     </header>
@@ -42,13 +48,13 @@
       <header class="more__header">
         <div class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/avatar.png" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
-                Hatada Izumi
+                Nicolás Serrano
               </span>
               <span class="friend__status">
-                eggplantizumi@gmail.com
+                itnicolasme@gmail.com
               </span>
             </div>
           </div>
@@ -59,58 +65,50 @@
         <ul class="more__btn-list">
           <li class="more__btn">
             <span class="more__btn-icon">
-              <i class="far fa-grin-squint fa-2x"></i>
+              <i class="far fa-smile fa-2x"></i>
             </span>
             <span class="more__btn-title">
               Emoticons
             </span>
-            <li class="more__btn">
+          </li>
+          <li class="more__btn">
             <span class="more__btn-icon">
               <i class="fas fa-brush fa-2x"></i>
             </span>
             <span class="more__btn-title">
               Themes
             </span>
-            </li>
-            <li class="more__btn">
+          </li>
+          <li class="more__btn">
             <span class="more__btn-icon">
               <i class="fab fa-kickstarter-k fa-2x"></i>
             </span>
             <span class="more__btn-title">
               Account
             </span>
-            </li>
           </li>
         </ul>
       </header>
       <section class="more__suggestions">
-        <h5 class="more__title">
-          Suggestions
-        </h5>
+        <h5 class="more__title">Suggestions</h5>
         <ul class="more__suggestions-list">
           <li class="more__suggestion suggestion">
             <span class="suggestion__icon">
-              <i class="fas fa-quote-right fa-2x"></i>
+              <i class="fas fa-quote-right "></i>
             </span>
-            <span class="suggestion__title">
-              Kakao Story
-            </span>
+            <span class="suggestion__title">Kakao Story</span>
           </li>
           <li class="more__suggestion suggestion">
-           <span class="suggestion__icon">
-             <i class="fas fa-beer fa-2x"></i>
-           </span>
-            <span class="suggestion__title">
-              kakao friends
+            <span class="suggestion__icon">
+              <i class="fas fa-beer fa-2x"></i>
             </span>
+            <span class="suggestion__title">Kakao friend</span>
           </li>
           <li class="more__suggestion suggestion">
             <span class="suggestion__icon">
               <i class="fas fa-gamepad fa-2x"></i>
             </span>
-            <span class="suggestion__title">
-              Friends Gem
-            </span>
+            <span class="suggestion__title">Friends Gem</span>
           </li>
         </ul>
       </section>
@@ -119,8 +117,8 @@
       <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
-            <i class="far fa-user"></i>
-          </a>
+            <i class="far fa-user"></i
+          ></a>
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
@@ -139,5 +137,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small! 😱</span>
+    </div>
   </body>
 </html>

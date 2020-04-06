@@ -3,10 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/7dcad8a665.js"
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
-    ></script>
+    />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -24,12 +28,13 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <hi class="header__title">Friends</hi>
+        <h1 class="header__title">Friends</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
+
         <span class="header__icon">
           <i class="fas fa-cog"></i>
         </span>
@@ -37,25 +42,25 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend">
           <div class="friend__column">
-            <img src="images/avatar.png" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
-                Hatada Izumi
+                Nicolás Serrano
               </span>
               <span class="friend__status">
-                Giand Panda, Endangered Species
+                nomadcoders.co
               </span>
             </div>
           </div>
         </div>
       </header>
-      <div class="friends__plus-friend">
+      <div class="friends__plus">
         <h5 class="friends__title">Plus friend</h5>
-        <div class="friends__column">
-          <div class="friends__friend friend friend">
-            <img src="images/avatar.png" class="g-avatar friend__avatar" />
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Plus Friend
@@ -68,22 +73,20 @@
         <h5 class="friends__title">Friends 14</h5>
         <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/avatar.png" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
-              <span class="friend__name">
-                Lynn
-              </span>
+              <span class="friend__name"> Nicolás Serrano </span>
               <span class="friend__status">
-                Hoi!
+                nomadcoders.co
               </span>
             </div>
           </div>
           <div class="friend__column">
             <div class="friend__now-listening">
               <span>
-                Hatada Izumi - Rolling Eggs
+                FTISLAND (FT NomadCoders)
+                <i class="fas fa-play"></i>
               </span>
-              <i class="fas fa-play"></i>
             </div>
           </div>
         </li>
@@ -93,8 +96,8 @@
       <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
-            <i class="fas fa-user"></i>
-          </a>
+            <i class="fas fa-user"></i
+          ></a>
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
@@ -113,5 +116,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small! 😱</span>
+    </div>
   </body>
 </html>
